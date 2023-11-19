@@ -1,0 +1,57 @@
+/* 
+    Cores
+Rose Red       #922C40
+Desert Sun     #DC9750
+Champagne      #F3EAC0
+Dark Blue      #1E2640
+*/
+
+/* Geral */
+body {
+    background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+}
+
+.container {
+    max-width: 1000px;
+}
+
+
+/* Preços */
+.pricing-header {
+    max-width: 700px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.enterprise {
+    border: 2px solid #1E2640;
+    background-color: #1E2640;
+    color: aliceblue;
+}
+
+.enterprises {
+    border: 2px solid #1E2640;
+}
+
+.blue-btn {
+    color: aliceblue;
+    background-color: #1E2640;
+}
+
+.blue-btn:hover {
+    color: aliceblue;
+    animation-duration: 1s;
+    background-color: #922C40;
+}
