@@ -55,3 +55,53 @@ body {
     animation-duration: 1s;
     background-color: #922C40;
 }
+
+
+.img-luciana {
+    border-radius: 50%;
+    width:250px;
+    height: 250px;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: -4px 10px 28px -4px #F3EAC0;
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .column-about {
+        width: 100%;
+    }
+}
+
+.column-about {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.about-txt {
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 53px;
+
+    width: auto;
+    height: auto;
+    font-size: 20px;
+
+
+}
+
+.container-about {
+    background-color: #1E2640;
+    color: #F3EAC0;
+    border-radius: 30px;
+}
+
+.sobre-mim {
+    padding-top: 10px;
+    text-align: center;
+
+}
