@@ -81,6 +81,7 @@ nav ul li a:hover{
 /*Showcase*/
 #showcase{
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url(img/showcase.jpg);
+    background-size: cover;
     text-align: center;
     padding: 100px 0;
     color: #fff;
