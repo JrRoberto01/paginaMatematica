@@ -78,6 +78,43 @@ nav ul li a:hover{
     margin-left: 25px;
 }
 
+/*Showcase*/
+#showcase{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url(img/showcase.jpg);
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+#showcase img{
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+#showcase h3, #showcase p{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+#showcase p{
+    margin: 10px 0;
+}
+#showcase button{
+    margin-top: 10px;
+    border: none;
+    padding: 10px 30px;
+    background-color: #1E2640;
+    color: #FFF;
+    font-weight: 500;
+    border-radius: 2px;
+}
+#showcase hr{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
 /* Preços */
 .pricing-header {
     max-width: 700px;
