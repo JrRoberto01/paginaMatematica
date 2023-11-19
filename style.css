@@ -56,7 +56,16 @@ body {
     background-color: #922C40;
 }
 
-
+/* Modal */
+.modal-header{
+    background-color: #1E2640;
+    color: #eee;
+}
+.close{
+    background-color: #922C40;
+    color: white;
+}
+/* Sobre Mim */
 .img-luciana {
     border-radius: 50%;
     width:250px;
