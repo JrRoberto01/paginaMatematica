@@ -165,6 +165,7 @@ nav ul li a:hover{
     background-color: #922C40;
     color: white;
 }
+
 /* Sobre Mim */
 .img-luciana {
     border-radius: 50%;
@@ -213,4 +214,27 @@ nav ul li a:hover{
     padding-top: 10px;
     text-align: center;
 
+}
+
+
+/* Avalição de usuarios */
+
+.card {
+
+    border: none;
+}
+
+.user-content p {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+
+.ratings i {
+    color: blue;
+}
+
+.image-user {
+    object-fit: cover;
+    border-radius: 100%;
 }
