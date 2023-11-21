@@ -64,15 +64,15 @@ nav ul li a{
 }
 nav ul li a:hover{
     border-bottom: 3px solid #F3EAC0;
+    color: #FFF;
 }
 .active{
     font-weight: bolder;
-    color: #F3EAC0;
 }
 .contact{
     background-color: #F3EAC0;
     padding: 10px 20px;
-    color: #1E2640;
+    color: #1E2640 !important;
     font-weight: 500;
     border-radius: 2px;
     margin-left: 25px;
@@ -92,7 +92,10 @@ nav ul li a:hover{
     display: block;
     margin: 0 auto;
 }
-#showcase h3, #showcase p{
+#showcase h1{
+    font-size: 1.7em;
+}
+#showcase h1, #showcase p{
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 500;
@@ -167,47 +170,67 @@ nav ul li a:hover{
 }
 
 /* Sobre Mim */
-.img-luciana {
-    border-radius: 50%;
-    width:250px;
-    height: 250px;
-    object-fit: cover;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    box-shadow: -4px 10px 28px -4px #F3EAC0;
-
+#sobre{
+    background-color: #1E2640;
+    padding: 100px 0;
+    margin-top: 25px;
 }
-
-
+h2{
+    margin-bottom: 50px;
+}
+.img-luciana{
+    border-radius: 50%;
+    width:85%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    object-fit: cover;
+    border: 3px solid #FFF;
+    padding: 15px;
+    transition: 0.5s;
+    /*box-shadow: -4px 10px 28px -4px #F3EAC0;*/
+}
+.img-luciana:hover{
+    padding: 5px;
+}
+.imagem-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    display: flex;
+    align-content: center;
+    margin-top: 10px;
+}
+.social i{
+    font-size: 1.5em;
+    color: #F3EAC0;
+    margin-right: 10px;
+}
+.social a{
+    text-decoration: none;
+    color: #fff;
+    align-self: center;
+    display: block;
+}
 @media screen and (max-width: 500px) {
     .column-about {
         width: 100%;
     }
 }
-
-.column-about {
-    display: grid;
-    column-gap: 20px;
-    grid-template-columns: auto auto;
-    padding: 10px;
-}
-
 .about-txt {
-    padding-left: 20px;
-    padding-right: 10px;
-    padding-top: 53px;
-
     width: auto;
     height: auto;
     font-size: 20px;
-
-
+    color: #fff;
 }
-
+.texto-sobre{
+    display: flex;
+    align-items: center;
+}
 .container-about {
-    background-color: #1E2640;
     color: #F3EAC0;
-    border-radius: 30px;
 }
 
 .sobre-mim {
