@@ -349,58 +349,6 @@ nav ul li a:hover{
     object-fit: cover;
     border-radius: 100%;
 }
-
-/* MEDIA QUERY RESPONSIVO*/
-@media (max-width: 991px) {
-    .meio{
-        border: none;
-    }
-    #sobre{
-        padding: 50px 0 0 0;
-    }
-    .about-txt{
-        text-align: center;
-        margin-top: 25px;
-    }
-    .social{
-        visibility: hidden;
-    }
-    .social-mobile i{
-        font-size: 2em;
-        margin: 0 6px;
-    }
-    #servicos{
-        padding: 50px 0;
-    }
-    .service{
-        padding: 0;
-    }
-    .conteudo-video h3{
-        text-align: center;
-        font-size: 2em !important;
-        margin: 25px;
-    }
-    .conteudo-video p{
-        text-align: justify;
-    }
-    .ratings-lateral{
-        margin-top: 0px;
-    }
-    nav{
-        display: block;
-    }
-}
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .column-about {
-        width: 100%;
-    }
-}
 footer{
     background-color: #1E2640;
     padding: 50px 0;
@@ -501,7 +449,59 @@ footer{
     color: #F3EAC0;
 }
 
-/* Responsivo */
+
+/* MEDIA QUERY RESPONSIVO*/
+@media (max-width: 991px) {
+    .meio{
+        border: none;
+    }
+    #sobre{
+        padding: 50px 0 0 0;
+    }
+    .about-txt{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .social{
+        visibility: hidden;
+    }
+    .social-mobile i{
+        font-size: 2em;
+        margin: 0 6px;
+    }
+    #servicos{
+        padding: 50px 0;
+    }
+    .service{
+        padding: 0;
+    }
+    .conteudo-video h3{
+        text-align: center;
+        font-size: 2em !important;
+        margin: 25px;
+    }
+    .conteudo-video p{
+        text-align: justify;
+    }
+    .ratings-lateral{
+        margin-top: 0px;
+    }
+    nav{
+        display: block;
+    }
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .column-about {
+        width: 100%;
+    }
+}
+
 @media (max-width: 800px) {
     .footer-col{
         width: 50%;
