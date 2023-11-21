@@ -73,6 +73,11 @@ nav ul li a:hover{
     font-weight: 500;
     border-radius: 2px;
     margin-left: 25px;
+    transition: 0.3s;
+}
+.contact:hover{
+    background-color: #cd9750;
+    border-bottom: 3px solid #cd9750;
 }
 
 /*Showcase*/
@@ -108,7 +113,12 @@ nav ul li a:hover{
     background-color: #1E2640;
     color: #FFF;
     font-weight: 500;
+    transition: 0.3s;
     border-radius: 2px;
+}
+#showcase button:hover{
+    background-color: #922C40;
+    color: #F3EAC0;
 }
 #showcase hr{
     width: 50%;
@@ -257,8 +267,7 @@ nav ul li a:hover{
     font-size: 0.5em;
 }
 .blue-btn:hover {
-    color: aliceblue;
-    animation-duration: 1s;
+    color: #F3EAC0;
     background-color: #922C40;
 }
 .btn-outline-dark{
@@ -266,6 +275,7 @@ nav ul li a:hover{
 }
 .btn-outline-dark:hover{
     background-color: #922C40;
+    color: #F3EAC0;
     border: 1px solid rgba(0,0,0,0);
 }
 /* Modal */
