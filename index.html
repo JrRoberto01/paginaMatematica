@@ -12,28 +12,29 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> 
-    <link href="style.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
     <script src="https://kit.fontawesome.com/6adb7e2d47.js" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
     <title>Professora Luciana</title>
 </head>
 
 <body>
     <div class="container-fluid">
+        <!--Navbar-->
         <div class="row">
             <nav>
                 <div class="container">
                     <div class="row">
-                        <div id="logo" class="col-5">
+                        <div id="logo" class="col-lg-5 col=md-3 col-sm-12">
                             <img src="img/owl.png" alt="logo Professora Luciana">
                             <h2>Professora <span class="highlight-text">Luciana</span></h2>
                         </div>
-                        <div id="menu" class="col">
+                        <div id="menu" class="col-lg-7 col-md-9 col-sm-12">
                             <ul>
                                 <li><a href="#showcase" class="active">Início</a></li>
                                 <li><a href="#sobre">Sobre Mim</a></li>
-                                <li><a href="#">Serviços</a></li>
-                                <li><a href="#">Preços e Pacotes</a></li>
+                                <li><a href="#servicos">Serviços</a></li>
+                                <li><a href="#preco">Preços e Pacotes</a></li>
                                 <li><a href="#" class="contact">Fazer Contato</a></li>
                             </ul>
                         </div>
@@ -72,6 +73,11 @@
                                     formada na UFRJ em Letras e possuo doutorado em Pedagogia pela USP. Leciono há 25 anos,
                                     porém atualmente estou atuando como corretora na banca do ENEM.</p>
                                     <hr>
+                                    <div class="social-mobile">
+                                        <i class="fa-brands fa-square-instagram"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                        <i class="fa-brands fa-square-whatsapp"></i>
+                                    </div>
                                     <div class="social">
                                         <i class="fa-brands fa-square-instagram"></i>
                                         <a href="#">Instagram</a>
@@ -123,6 +129,28 @@
                     </div>
                 </div>
             </section>
+        </div>
+        <!--Galeria-->
+        <div class="row">
+            <section id="galeria">
+                <div class="container">
+                    <h2>Videoaula em destaque</h2>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <iframe src="https://www.youtube.com/embed/BqOR1DEIuzY?si=PCodSaCrU1Dh_8QH&amp;controls=0" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="conteudo-video">
+                                <h3>Aprenda tudo sobre <b>pontuação.</b></h3>
+                                <p>Se você deseja aprender pontuação, você clicou no vídeo certo! Te explicarei quais são os sinais de pontuação passo a passo de um jeito simples e resumido, mas muito eficiente. Você aprenderá quais são os sinais de pontuação e como pontuar do jeito certo. <br>
+                                    A pontuação é extremamente importante porque recupera recursos específicos da língua falada, como as pausas, entonação e também contribuem para a coerência e coesão de textos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="row">
+            <span class="divider"></span>
         </div>
         <!--Preço-->
         <div class="row">
@@ -459,109 +487,68 @@
     </div>
     <div class="container mt-4">
             <!-- Avalição de usuarios -->
-            <section class="rating">
+            <section class="rating" id="avaliacao">
                 <div class="container mt-5 mb-5">
                     <div class="row g-2">
                         <div class="col-md-4">
-                            <div class="card p-3 text-center px-4">
-                                
+                            <div class="card p-3 text-center px-4 ratings-lateral"> 
                                 <div class="user-image">
-                                    
-                            <img class="image-user" src="https://images.pexels.com/photos/3783725/pexels-photo-3783725.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="rounded-circle" width="100" height="100" 
-                                    >
-                                    
+                                    <img class="image-user" src="https://images.pexels.com/photos/3783725/pexels-photo-3783725.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="rounded-circle" width="100" height="100">
                                 </div>
-                                
                                 <div class="user-content">
-                                    
                                     <h5 class="mb-0">Bruna Schwartz</h5>
                                     <span>Professora</span>
-                                    <p>Quando estava me preparando para fazer o concurso para professora, decidi procurar o curso. É incrível como a experiência da professora Luciana nos beneficia em termos de aprendizado. A melhor professora que já tive!!</p>
-                                    
+                                    <p class="fs-5 text-muted">Quando estava me preparando para fazer o concurso para professora, decidi procurar o curso. É incrível como a experiência da professora Luciana nos beneficia em termos de aprendizado. A melhor professora que já tive!!</p>
                                 </div>
-                                
                                 <div class="ratings">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
-                                    
                                 </div>
-                                
                             </div>
                         </div>
-                        
                         <div class="col-md-4">
-                            
                             <div class="card p-3 text-center px-4">
-                                
                                 <div class="user-image">
-                                    
-                            <img class="image-user" src="https://images.pexels.com/photos/2861798/pexels-photo-2861798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="rounded-circle" width="100" height="100"
-                                    >
-                                    
+                                    <img class="image-user" src="https://images.pexels.com/photos/2861798/pexels-photo-2861798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="rounded-circle" width="100" height="100">
                                 </div>
-                                
                                 <div class="user-content">
-                                    
                                     <h5 class="mb-0">Djavan Carderc</h5>
                                     <span>Maquinista</span>
-                                    <p>A professora Luciana é, como certeza, uma excelente profissional. Ela é bem dinâmica e proeficiente. Graças a ela, consegui ingressar na faculdade que sempre sonhei! Recomendo muito!</p>
-                                    
+                                    <p class="fs-5 text-muted">A professora Luciana é, como certeza, uma excelente profissional. Ela é bem dinâmica e proeficiente. Graças a ela, consegui ingressar na faculdade que sempre sonhei! Recomendo muito!</p>
                                 </div>
-                                
                                 <div class="ratings">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
-                                    
                                 </div>
-                                
                             </div>
-                            
                         </div>
-                        
                         <div class="col-md-4">
-                            
-                            <div class="card p-3 text-center px-4">
-                                
-                                <div class="user-image">
-                                    
-                            <img class="image-user" src="https://images.pexels.com/photos/1213769/pexels-photo-1213769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="rounded-circle" width="100" height="100"
-                                    >
-                                    
+                            <div class="card p-3 text-center px-4 ratings-lateral">  
+                                <div class="user-image">  
+                                    <img class="image-user" src="https://images.pexels.com/photos/1213769/pexels-photo-1213769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="rounded-circle" width="100" height="100">
                                 </div>
-                                
                                 <div class="user-content">
-                                    
                                     <h5 class="mb-0">Bianca Silva</h5>
                                     <span>Universitária</span>
-                                    <p>O fato de ter a opção de materiais para vestibular é perfeito! Sem isso, eu não teria conseguido tirar 1000 na redação do ENEM e ingressar na faculdade de medicina! A professora Luciana é incrível! Amei ! ♥ </p>
-                                    
+                                    <p class="fs-5 text-muted">O fato de ter a opção de materiais para vestibular é perfeito! Sem isso, eu não teria conseguido tirar 1000 na redação do ENEM e ingressar na faculdade de medicina! A professora Luciana é incrível! Amei ! ♥ </p>
                                 </div>
-                                
                                 <div class="ratings">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
-                                    
                                 </div>
-                                
                             </div>
-                            
                         </div>
-                        
-                        
                     </div>
-                    
                 </div>
             </section>
-
-
-                </main>
+            </main>
         </section>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
