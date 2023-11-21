@@ -217,7 +217,6 @@ nav ul li a:hover{
 .meio{
     border-left: 1px solid #FFF;
     border-right: 1px solid #FFF;
-
 }
 
 /* Preços */
@@ -240,12 +239,6 @@ nav ul li a:hover{
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-}
-
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
 }
 
 .enterprise {
@@ -308,4 +301,16 @@ nav ul li a:hover{
 .image-user {
     object-fit: cover;
     border-radius: 100%;
+}
+
+/* MEDIA QUERY RESPONSIVO*/
+@media (max-width: 991px) {
+    .meio{
+        border: none;
+    }
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
 }
