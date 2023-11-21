@@ -229,14 +229,23 @@ nav ul li a:hover{
 .blue-btn {
     color: aliceblue;
     background-color: #1E2640;
+    transition: 0.2s;
 }
-
+.text-muted{
+    font-size: 0.5em;
+}
 .blue-btn:hover {
     color: aliceblue;
     animation-duration: 1s;
     background-color: #922C40;
 }
-
+.btn-outline-dark{
+    transition: 0.2s;
+}
+.btn-outline-dark:hover{
+    background-color: #922C40;
+    border: 1px solid rgba(0,0,0,0);
+}
 /* Modal */
 .modal-header{
     background-color: #1E2640;
