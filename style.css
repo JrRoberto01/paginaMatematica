@@ -536,6 +536,9 @@ footer{
     .menu-mobile-active{
         display: block !important;
     }
+    .medias-socias{
+        text-align: center;
+    }
 }
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
