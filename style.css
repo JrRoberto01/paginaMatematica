@@ -23,6 +23,9 @@ body {
     padding: 50px 0;
     background-color: #1E2640;
 }
+.container-fluid{
+    margin: auto;
+}
 
 /*NavBar*/
 nav{
@@ -383,14 +386,130 @@ nav ul li a:hover{
     .ratings-lateral{
         margin-top: 0px;
     }
+    nav{
+        display: block;
+    }
 }
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
 }
+
 @media screen and (max-width: 500px) {
     .column-about {
+        width: 100%;
+    }
+}
+footer{
+    background-color: #1E2640;
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: #F3EAC0;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #F3EAC0;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #cd9750;
+    padding-left: 10px;
+}
+.footer-col .medias-socias{
+    margin-top: 30px;
+}
+.footer-col .medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #F3EAC0;
+    border: 1px solid #F3EAC0;
+    transition: all 0.5s ease;
+}
+.footer-col .medias-socias a i{
+    font-size: 20px;
+}
+
+.footer-col .medias-socias a:hover{
+    color: #1E2640;
+    background-color: #F3EAC0;
+}
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #F3EAC0;
+    color: #F3EAC0;
+    background-color: #1E2640;
+}
+.footer-col .form-sub input::placeholder{
+    color: #F3EAC0;
+}
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px; 
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #1E2640;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: #F3EAC0;
+    transition: 0.3s;        
+}
+.footer-col .form-sub button:hover{
+    background-color: #922C40;
+    color: #F3EAC0;
+}
+
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .footer-col{
         width: 100%;
     }
 }

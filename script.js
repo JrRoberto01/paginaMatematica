@@ -1,6 +1,12 @@
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
+function classToggle() {
+  const navs = document.querySelectorAll('.Navbar__Items')
+  
+  navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
 }
+
+document.querySelector('.Navbar__Link-toggle')
+  .addEventListener('click', classToggle);
+
+  import { Ripple, initMDB } from "mdb-ui-kit";
+
+initMDB({ Ripple });
