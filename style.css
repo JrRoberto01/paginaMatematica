@@ -259,7 +259,14 @@ nav i{
     border-left: 1px solid #FFF;
     border-right: 1px solid #FFF;
 }
-
+/*Blog*/
+.Blog h2{
+    text-align: center;
+    color: #1E2640;
+}
+.blg{
+    padding-top: 50px;
+}
 /* Galeria */
 #galeria{
     padding: 100px 0;
