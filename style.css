@@ -125,7 +125,7 @@ nav ul li a:hover{
     padding: 100px 0;
     margin-top: 25px;
 }
-#sobre h2{
+#sobre h2, #preco h2{
     margin-bottom: 50px;
 }
 .img-luciana{
@@ -189,10 +189,19 @@ nav ul li a:hover{
 }
 
 /* Preços */
-.pricing-header {
-    max-width: 700px;
+#preco{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 25px;
 }
-
+#preco h2{
+    text-align: center;
+    color: #1E2640;
+}
+#preco p{
+    text-align: center;
+    margin-bottom: 50px;
+}
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
