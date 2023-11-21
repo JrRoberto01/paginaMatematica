@@ -1,3 +1,5 @@
+//Toogle Nav Menu
+
 function classToggle() {
   const navs = document.querySelectorAll('.Navbar__Items')
   
