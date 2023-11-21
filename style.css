@@ -119,63 +119,13 @@ nav ul li a:hover{
     margin: 0 auto;
 }
 
-/* Preços */
-.pricing-header {
-    max-width: 700px;
-}
-
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-}
-
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
-}
-
-.enterprise {
-    border: 2px solid #1E2640;
-    background-color: #1E2640;
-    color: aliceblue;
-}
-
-.enterprises {
-    border: 2px solid #1E2640;
-}
-
-.blue-btn {
-    color: aliceblue;
-    background-color: #1E2640;
-}
-
-.blue-btn:hover {
-    color: aliceblue;
-    animation-duration: 1s;
-    background-color: #922C40;
-}
-
-/* Modal */
-.modal-header{
-    background-color: #1E2640;
-    color: #eee;
-}
-.close{
-    background-color: #922C40;
-    color: white;
-}
-
 /* Sobre Mim */
 #sobre{
     background-color: #1E2640;
     padding: 100px 0;
     margin-top: 25px;
 }
-h2{
+#sobre h2{
     margin-bottom: 50px;
 }
 .img-luciana{
@@ -232,13 +182,61 @@ h2{
 .container-about {
     color: #F3EAC0;
 }
-
 .sobre-mim {
     padding-top: 10px;
     text-align: center;
 
 }
 
+/* Preços */
+.pricing-header {
+    max-width: 700px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.enterprise {
+    border: 2px solid #1E2640;
+    background-color: #1E2640;
+    color: aliceblue;
+}
+
+.enterprises {
+    border: 2px solid #1E2640;
+}
+
+.blue-btn {
+    color: aliceblue;
+    background-color: #1E2640;
+}
+
+.blue-btn:hover {
+    color: aliceblue;
+    animation-duration: 1s;
+    background-color: #922C40;
+}
+
+/* Modal */
+.modal-header{
+    background-color: #1E2640;
+    color: #eee;
+}
+.close{
+    background-color: #922C40;
+    color: white;
+}
 
 /* Avalição de usuarios */
 
