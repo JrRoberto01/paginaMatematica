@@ -428,6 +428,25 @@ footer{
     color: #cd9750;
     padding-left: 10px;
 }
+
+.footer-col ul li button{
+    text-align: left;
+    border: none;
+    padding: 0;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #F3EAC0;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    
+}
+.footer-col ul li button:hover{
+    color: #cd9750;
+    padding-left: 10px;
+    
+}
 .footer-col .medias-socias{
     margin-top: 30px;
 }
